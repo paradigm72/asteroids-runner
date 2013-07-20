@@ -1,14 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="49282217-aa1c-468c-8f67-b269e4cdad1a" name="Default" comment="" />
+    <list default="true" id="49282217-aa1c-468c-8f67-b269e4cdad1a" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/game/main.js" afterPath="$PROJECT_DIR$/lib/game/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/game/scoreStorage.js" afterPath="$PROJECT_DIR$/lib/game/scoreStorage.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="AsteroidsRunner.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="49282217-aa1c-468c-8f67-b269e4cdad1a" time="1372040910963" ignored="false" />
+    <file path="/Dummy.txt" changelist="49282217-aa1c-468c-8f67-b269e4cdad1a" time="1374354672302" ignored="false" />
     <file path="/index.php" changelist="49282217-aa1c-468c-8f67-b269e4cdad1a" time="1368555053860" ignored="false" />
-    <file path="/main.js" changelist="49282217-aa1c-468c-8f67-b269e4cdad1a" time="1371177668290" ignored="false" />
+    <file path="/main.js" changelist="49282217-aa1c-468c-8f67-b269e4cdad1a" time="1372821751555" ignored="false" />
     <file path="/ship.js" changelist="49282217-aa1c-468c-8f67-b269e4cdad1a" time="1370951337609" ignored="false" />
-    <file path="/laserShot.js" changelist="49282217-aa1c-468c-8f67-b269e4cdad1a" time="1369017917863" ignored="false" />
+    <file path="/laserShot.js" changelist="49282217-aa1c-468c-8f67-b269e4cdad1a" time="1372042082449" ignored="false" />
     <file path="/death.js" changelist="49282217-aa1c-468c-8f67-b269e4cdad1a" time="1368585377530" ignored="false" />
     <file path="/asteroid.js" changelist="49282217-aa1c-468c-8f67-b269e4cdad1a" time="1370221427393" ignored="false" />
     <file path="$USER_HOME$/Documents/EjectaAsteroids/App/lib/game/entities/wall.js" changelist="49282217-aa1c-468c-8f67-b269e4cdad1a" time="1368813152820" ignored="false" />
@@ -19,12 +23,13 @@
     <file path="/wall.js" changelist="49282217-aa1c-468c-8f67-b269e4cdad1a" time="1369061650428" ignored="false" />
     <file path="/asteroidPoints.js" changelist="49282217-aa1c-468c-8f67-b269e4cdad1a" time="1368821781512" ignored="false" />
     <file path="/index-desktop.html" changelist="49282217-aa1c-468c-8f67-b269e4cdad1a" time="1368931884305" ignored="false" />
-    <file path="/a.dummy" changelist="49282217-aa1c-468c-8f67-b269e4cdad1a" time="1370837188348" ignored="false" />
+    <file path="/a.dummy" changelist="49282217-aa1c-468c-8f67-b269e4cdad1a" time="1372042828663" ignored="false" />
     <file path="/entitySpawner.js" changelist="49282217-aa1c-468c-8f67-b269e4cdad1a" time="1369059275695" ignored="false" />
     <file path="/logicalCoords.js" changelist="49282217-aa1c-468c-8f67-b269e4cdad1a" time="1369080352945" ignored="false" />
-    <file path="/tutorial.js" changelist="49282217-aa1c-468c-8f67-b269e4cdad1a" time="1369081590131" ignored="false" />
+    <file path="/tutorial.js" changelist="49282217-aa1c-468c-8f67-b269e4cdad1a" time="1372041748616" ignored="false" />
     <file path="/shieldMeter.js" changelist="49282217-aa1c-468c-8f67-b269e4cdad1a" time="1370950863962" ignored="false" />
     <file path="/shield.js" changelist="49282217-aa1c-468c-8f67-b269e4cdad1a" time="1371178191793" ignored="false" />
+    <file path="/scoreStorage.js" changelist="49282217-aa1c-468c-8f67-b269e4cdad1a" time="1374354772585" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,10 +92,19 @@
     <splitter split-orientation="horizontal" split-proportion="0.52357006">
       <split-first>
         <leaf>
-          <file leaf-file-name="main.js" pinned="false" current="false" current-in-tab="true">
+          <file leaf-file-name="main.js" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/lib/game/main.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="136" column="12" selection-start="3869" selection-end="3869" vertical-scroll-proportion="2.6772728">
+                <state line="362" column="52" selection-start="13135" selection-end="13135" vertical-scroll-proportion="0.30227274">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="debug_display.js" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/lib/plugins/empika/debug_display.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="17" column="60" selection-start="467" selection-end="467" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
@@ -150,17 +164,10 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="main.js" pinned="false" current="false" current-in-tab="false">
-            <entry file="http://127.0.0.1/~paradigm72/AsteroidsRunner/lib/game/main.js">
-              <provider selected="true" editor-type-id="httpFileEditor">
-                <state />
-              </provider>
-            </entry>
-          </file>
           <file leaf-file-name="logicalCoords.js" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/lib/plugins/logicalCoords.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="15" column="42" selection-start="376" selection-end="376" vertical-scroll-proportion="0.0">
+                <state line="26" column="55" selection-start="593" selection-end="593" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
@@ -173,7 +180,7 @@
           <file leaf-file-name="asteroid.js" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/lib/game/entities/asteroid.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="23" column="19" selection-start="552" selection-end="552" vertical-scroll-proportion="0.0">
+                <state line="38" column="8" selection-start="885" selection-end="1043" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
@@ -182,7 +189,7 @@
           <file leaf-file-name="laserShot.js" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/lib/game/entities/laserShot.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="19" column="4" selection-start="432" selection-end="432" vertical-scroll-proportion="0.0">
+                <state line="29" column="54" selection-start="660" selection-end="660" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
@@ -206,10 +213,19 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="shield.js" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="shield.js" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/lib/game/entities/shield.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="27" column="30" selection-start="698" selection-end="698" vertical-scroll-proportion="0.38981172">
+                <state line="0" column="49" selection-start="10" selection-end="10" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="tutorial.js" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/lib/game/entities/tutorial.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="26" column="33" selection-start="651" selection-end="651" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
@@ -219,6 +235,15 @@
             <entry file="file://$PROJECT_DIR$/lib/game/entities/asteroidPoints.js">
               <provider selected="true" editor-type-id="text-editor">
                 <state line="19" column="34" selection-start="584" selection-end="584" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="scoreStorage.js" pinned="false" current="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/lib/game/scoreStorage.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="44" column="43" selection-start="1690" selection-end="1690" vertical-scroll-proportion="0.7772727">
                   <folding />
                 </state>
               </provider>
@@ -245,22 +270,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/lib/plugins/entity_spawnPosCheck.js" />
-        <option value="127.0.0.1/~paradigm72/AsteroidsRunner/lib/game/entitySpawner.js" />
-        <option value="$PROJECT_DIR$/lib/game/entitySpawner.js" />
-        <option value="$PROJECT_DIR$/lib/game/entityFactory.js" />
         <option value="127.0.0.1/~paradigm72/AsteroidsRunner/lib/game/entities/wall.js" />
         <option value="$PROJECT_DIR$/lib/game/entities/wall.js" />
         <option value="$PROJECT_DIR$/lib/plugins/logicalCoords.js" />
         <option value="$PROJECT_DIR$/lib/game/levels/levelOne.js" />
-        <option value="$PROJECT_DIR$/lib/game/entities/tutorial.js" />
         <option value="$PROJECT_DIR$/lib/game/entities/asteroid.js" />
         <option value="127.0.0.1/~paradigm72/AsteroidsRunner/lib/game/main.js" />
         <option value="$PROJECT_DIR$/lib/game/entities/ship.js" />
         <option value="$PROJECT_DIR$/lib/game/shieldMeter.js" />
         <option value="$PROJECT_DIR$/index-desktop.html" />
-        <option value="$PROJECT_DIR$/lib/game/main.js" />
         <option value="$PROJECT_DIR$/lib/game/entities/shield.js" />
+        <option value="$PROJECT_DIR$/lib/game/entities/tutorial.js" />
+        <option value="$PROJECT_DIR$/lib/game/entities/laserShot.js" />
+        <option value="$PROJECT_DIR$/lib/plugins/empika/debug_display.js" />
+        <option value="$PROJECT_DIR$/lib/game/main.js" />
+        <option value="127.0.0.1/~paradigm72/AsteroidsRunner/lib/game/scoreStorage.js" />
+        <option value="$PROJECT_DIR$/lib/game/scoreStorage.js" />
       </list>
     </option>
   </component>
@@ -302,7 +327,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -336,8 +360,89 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AsteroidsRunner" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AsteroidsRunner" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="plugins" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AsteroidsRunner" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AsteroidsRunner" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="plugins" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="empika" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AsteroidsRunner" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AsteroidsRunner" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="game" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AsteroidsRunner" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AsteroidsRunner" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="game" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="entities" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -515,7 +620,7 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32922128" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3353846" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -610,59 +715,9 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/lib/game/entities/laserShot.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="4" selection-start="432" selection-end="432" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/game/entities/asteroidPoints.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="34" selection-start="584" selection-end="584" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="http://127.0.0.1/~paradigm72/AsteroidsRunner/lib/game/main.js">
       <provider selected="true" editor-type-id="httpFileEditor">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/game/entityFactory.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="32" selection-start="1062" selection-end="1062" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/game/entities/wall.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="20" selection-start="502" selection-end="502" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/game.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="240" column="156" selection-start="56472" selection-end="56472" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/game/levels/levelOne.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="3" selection-start="1154" selection-end="1154" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/game/entities/tutorial.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="33" selection-start="834" selection-end="834" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/game/shieldMeter.js">
@@ -672,16 +727,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index-desktop.html">
+    <entry file="file://$PROJECT_DIR$/lib/impact/font.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="48" selection-start="642" selection-end="642" vertical-scroll-proportion="0.0">
+        <state line="73" column="0" selection-start="1504" selection-end="1504" vertical-scroll-proportion="0.7431818" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/impact/impact.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="565" column="26" selection-start="13339" selection-end="13339" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/game/entities/asteroid.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="19" selection-start="552" selection-end="552" vertical-scroll-proportion="0.0">
+        <state line="38" column="8" selection-start="885" selection-end="1043" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -693,16 +753,70 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/game/main.js">
+    <entry file="file://$PROJECT_DIR$/lib/game/entities/shield.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="136" column="12" selection-start="3869" selection-end="3869" vertical-scroll-proportion="2.6772728">
+        <state line="0" column="49" selection-start="10" selection-end="10" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/game/entities/shield.js">
+    <entry file="file://$PROJECT_DIR$/lib/game/entities/tutorial.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="30" selection-start="698" selection-end="698" vertical-scroll-proportion="0.38981172">
+        <state line="26" column="33" selection-start="651" selection-end="651" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/game/entities/wall.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="20" selection-start="502" selection-end="502" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/game/entities/asteroidPoints.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="34" selection-start="584" selection-end="584" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index-desktop.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="48" selection-start="642" selection-end="642" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/plugins/empika/debug_display.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="60" selection-start="467" selection-end="467" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/game/entities/laserShot.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="54" selection-start="660" selection-end="660" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="http://127.0.0.1/~paradigm72/AsteroidsRunner/lib/game/scoreStorage.js">
+      <provider selected="true" editor-type-id="httpFileEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/game/scoreStorage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="44" column="43" selection-start="1690" selection-end="1690" vertical-scroll-proportion="0.7772727">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/game/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="362" column="52" selection-start="13135" selection-end="13135" vertical-scroll-proportion="0.30227274">
           <folding />
         </state>
       </provider>
